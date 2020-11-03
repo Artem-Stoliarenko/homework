@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+.main-element {
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px 10px;
+    margin-bottom: 30px;
+    border: 2px dashed red;
+    background: green;
+}
+.traffic-lights {
+    height: 500px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.traffic-lights__red {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    margin-bottom: 50px;
+}
+.traffic-lights__yellow {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background:yellow;
+    margin-bottom: 50px;
+}
+.traffic-lights__green {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: green;
+    margin-bottom: 50px;
+}
+.square {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    
+}
+.square__red {
+    background: red;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.square__purple {
+    background: purple;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+.square__green {
+    background: green;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+}
+.text {
+    height: 600px;
+    width: 600px;
+    text-align: justify;
+}
+.text__image1 {
+    margin: 0px 15px 5px 0px;
+    width: 150px;
+    height: 84px;
+    position: relative;
+    background-image: url(../images/html.png);
+    background-position: 100%;
+    float: left;
+    background-size: 100%;
+}
+.text__image2 {
+    padding: 0px;
+    margin: 15px 0px 5px 15px;
+    width: 140px;
+    height: 78px;
+    background-image: url(../images/html-css.png);
+    background-repeat: no-repeat;
+    float: right;
+    background-size: 100%;
+    position: relative;
+    display: block;
+}

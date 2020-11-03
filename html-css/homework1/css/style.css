@@ -1,0 +1,28 @@
+.titleOfHeader{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.titleOfSection{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: wavy;
+}
+body {
+    background-color: khaki;
+}
+
+.section{
+    font-size: 15px;
+    color: lightcoral;
+}
+
+ol {
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+}
