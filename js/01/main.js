@@ -11,9 +11,9 @@ function callKcl(arg1,arg2,arg3,arg4) {
 }
 
 if (gender.toLocaleLowerCase() == 'мужчина') {
-    alert("Вам надо потратить " + (callKcl(66.5,13.75,5.003,6.775) + " каллорий."));
+    alert("Вам надо потратить " + (Math.round(callKcl(66.5,13.75,5.003,6.775)) + " каллорий."));
 } else if (gender.toLocaleLowerCase() == 'женщина') {
-    alert("Вам надо потратить " + (callKcl(655.1,9.563,1.85,4.676) + " каллорий."));
+    alert("Вам надо потратить " + (Math.round(callKcl(655.1,9.563,1.85,4.676)) + " каллорий."));
 } else {
     alert('Перезагрузите страницу и введите корректно.');
 }
