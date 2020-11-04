@@ -3,12 +3,12 @@ let credentials = {
     login: 'admin',
     password: 'qwerty',
 };
-let diva = document.getElementById("box");
+let box = document.getElementById("box");
 
 function check() {
     if (credentials.login == document.getElementById("log").value && credentials.password == document.getElementById("pass").value) {
-        diva.style.backgroundColor = 'green';
+        box.style.backgroundColor = 'green';
     } else {
-        diva.style.backgroundColor = 'red';
+        box.style.backgroundColor = 'red';
     }
 }
