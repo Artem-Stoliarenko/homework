@@ -1,4 +1,5 @@
 "use strict";
+//
 let credentials = {
     login: 'admin',
     password: 'qwerty',
